@@ -1,0 +1,17 @@
+.photo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo img {
+    width: 20%;
+    clip-path: circle(40%);
+}
+
+.photo h1 {
+    margin: 20px 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
