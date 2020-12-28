@@ -4,6 +4,14 @@ html {
     display: grid; 
     align-items: center;
     justify-items: center;
+
+    --bg: #FFFFFF;
+    --color-text: #FFFFFF;
+    --color-text-principal: #0A59CF;
+    --link-github: #24292E;
+    --link-linkedin: #4373AA;
+    --link-medium: #272727;
+    --toggle-bg: #000000;
 }
 
 body {

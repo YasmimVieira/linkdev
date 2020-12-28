@@ -16,8 +16,7 @@ label {
     text-indent: -999px;
     width: 52px;
     height: 27px;
-    background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0,0.9500175070028011) 5%, rgba(45,48,50,1) 41%, rgba(102,106,107,1) 74%);    float: right;
+    background: var(--toggle-bg);
     border-radius: 100px;
     position: relative;
 }
@@ -29,14 +28,12 @@ label::after {
     left: 3px;
     width: 20px;
     height: 20px;
-    background-color: var(--bg);
+    background-color: var(--color-text);
     border-radius: 90px;
     transition: 0.3s;
 }
 
-input:checked + label {
-    background-color: var(--color-headings);
-}
+
 
 input:checked + label::after {
     left: calc(69% - 5px);
@@ -45,4 +42,10 @@ input:checked + label::after {
 
 label:active:after {
     width: 45px;
+}
+
+@media(max-width: 425px) {
+    header {
+        margin: 0 4rem 0 0;
+    }
 }

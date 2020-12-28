@@ -1,4 +1,5 @@
 .photo {
+    margin-left: 3%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,8 +11,20 @@
     clip-path: circle(40%);
 }
 
-.photo h1 {
+ h1 {
+    color: var(--color-text-principal);
     margin: 20px 0;
     font-size: 1.5rem;
     font-weight: bold;
+}
+
+@media(max-width: 425px) {
+    .photo {
+        margin: 20% 0 0 27%;
+    } 
+
+    h1 {
+        margin: 0;
+        text-align: center;
+    }
 }
