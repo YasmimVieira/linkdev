@@ -1,0 +1,9 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    
+    --bg: #FFFFFF;
+    --link-github: #24292E;
+    --link-linkedin: #4373AA;
+    --link-medium: #272727;
+    --button-dark: linear-gradient(#272727, #7E7E7E, #969696, #555555, #3F3B3B)
+}
