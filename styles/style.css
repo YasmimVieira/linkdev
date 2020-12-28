@@ -1,9 +1,75 @@
-body {
+html {
+    height: 100%;
     font-family: 'Montserrat', sans-serif;
-    
+    display: grid; 
+    align-items: center;
+    justify-items: center;
+
     --bg: #FFFFFF;
     --link-github: #24292E;
     --link-linkedin: #4373AA;
     --link-medium: #272727;
     --button-dark: linear-gradient(#272727, #7E7E7E, #969696, #555555, #3F3B3B)
+}
+
+body {
+    background-color: var(--bg);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.photo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo img {
+    width: 20%;
+    clip-path: circle(40%);
+}
+
+.photo h1 {
+    margin: 20px 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.links {
+    width: 20%;
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.links a {
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    margin: 0.5rem;
+    color: var(--bg);
+    font-size: 1.5rem;
+    text-decoration: none;
+    border-radius: 9px;
+}
+
+.links a:first-child {
+    background: var(--link-github);
+}
+
+.links a:nth-child(2n){
+    background: var(--link-linkedin);
+} 
+
+.links a:last-child {
+    background: var(--link-medium);
 }
