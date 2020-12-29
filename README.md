@@ -1,9 +1,8 @@
 <h1 align="center">
     Meu Linkdev
+    Esse site é semelhante ao linktree, porém feito por mim.
 </h1>
 
-Esse site é semelhante ao linktree, porém feito por mim.
-
 <div align="center">
-    ![gif](https://github.com/YasmimVieira/linkdev/blob/master/assets/ezgif.com-gif-maker.gif)
+    <img src="/assets/linkdev.png">
 </div>
