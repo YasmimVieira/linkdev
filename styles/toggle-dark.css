@@ -46,6 +46,6 @@ label:active:after {
 
 @media(max-width: 425px) {
     header {
-        margin: 0 4rem 0 0;
+        margin: 0 6rem 0 0;
     }
 }
