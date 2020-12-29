@@ -4,4 +4,6 @@
 
 Esse site é semelhante ao linktree, porém feito por mim.
 
-![gif](https://github.com/YasmimVieira/linkdev/blob/master/assets/ezgif.com-gif-maker.gif)
+<div align="center">
+    ![gif](https://github.com/YasmimVieira/linkdev/blob/master/assets/ezgif.com-gif-maker.gif)
+</div>
