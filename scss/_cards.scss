@@ -1,5 +1,5 @@
 .portfolio {
-    &__ball {
+    &__cards-ball {
         background-color: $primary-color;
         border-radius: 50%;
         height: 60px;
@@ -27,7 +27,7 @@
         }
     }
 
-    &__image {
+    &__cards-image {
         left: 11px;
         position: absolute;
         top: 10px;
@@ -49,8 +49,8 @@
 }
 
 .social-medias {
-    &__ball {
-        @extend .portfolio__ball;
+    &__cards-ball {
+        @extend .portfolio__cards-ball;
 
         @include for-desktop {
             left: 39%

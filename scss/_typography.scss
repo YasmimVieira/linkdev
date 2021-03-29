@@ -15,7 +15,7 @@
         padding-left: 0.5rem;
     }
 
-    &__subtitle {
+    &__cards-subtitle {
         color: $second-color;
         cursor: pointer;
         font-size: 1.5rem;
@@ -24,7 +24,7 @@
         font-weight: bold;
     }
 
-    &__paragraph {
+    &__cards-paragraph {
         color: $second-color;
         text-align: center
     }
@@ -43,11 +43,11 @@
     }
 
     &__paragraph {
-        @extend .portfolio__paragraph;
+        @extend .portfolio__cards-paragraph;
     }
 
-    &__subtitle {
-        @extend .portfolio__subtitle;
+    &__cards-subtitle {
+        @extend .portfolio__cards-subtitle;
     }
 
     &__header {

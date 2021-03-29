@@ -409,7 +409,7 @@ th {
   margin-top: 3rem;
   padding-left: 0.5rem;
 }
-.portfolio__subtitle, .social-medias__subtitle {
+.portfolio__cards-subtitle, .social-medias__cards-subtitle {
   color: #FFFFFF;
   cursor: pointer;
   font-size: 1.5rem;
@@ -417,7 +417,7 @@ th {
   text-decoration-color: #6B0AB0;
   font-weight: bold;
 }
-.portfolio__paragraph, .social-medias__paragraph {
+.portfolio__cards-paragraph, .social-medias__paragraph {
   color: #FFFFFF;
   text-align: center;
 }
@@ -428,7 +428,7 @@ th {
   }
 }
 
-.portfolio__ball, .social-medias__ball {
+.portfolio__cards-ball, .social-medias__cards-ball {
   background-color: #6B0AB0;
   border-radius: 50%;
   height: 60px;
@@ -454,7 +454,7 @@ th {
     width: 20%;
   }
 }
-.portfolio__image {
+.portfolio__cards-image {
   left: 11px;
   position: absolute;
   top: 10px;
@@ -475,7 +475,7 @@ th {
 }
 
 @media screen and (min-width: 1200px) {
-  .social-medias__ball {
+  .social-medias__cards-ball {
     left: 39%;
   }
 }
