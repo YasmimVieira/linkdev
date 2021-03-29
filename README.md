@@ -6,9 +6,3 @@
 <div align="center">
     <img src="/assets/linkdev.png">
 </div>
-
-## My old link
-
-<div align="center">
-    <img src="/assets/linkdev.png">
-</div>
