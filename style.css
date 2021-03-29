@@ -32,8 +32,17 @@
 .portfolio__cards {
   background-color: #2C2C2C;
   border-radius: 8px;
-  padding-bottom: 0.9rem;
+  padding: 0.9rem;
   margin-top: 5rem;
+}
+.portfolio__cards:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 0 2px #6B0AB0;
+}
+.portfolio__image {
+  position: absolute;
+  top: 10px;
+  left: 11px;
 }
 
 body {

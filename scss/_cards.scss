@@ -12,7 +12,18 @@
     &__cards {
         background-color: $background-cards;
         border-radius: 8px;
-        padding-bottom: 0.9rem;
+        padding: 0.9rem;
         margin-top: 5rem;
+
+        &:hover {
+            transform: scale(1.02);
+            box-shadow: 0 0 0 2px $primary-color;
+        }
+    }
+
+    &__image {
+        position: absolute;
+        top: 10px;
+        left: 11px;
     }
 }
