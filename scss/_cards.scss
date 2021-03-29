@@ -29,3 +29,13 @@
         left: 11px;
     }
 }
+
+.social-medias {
+    &__ball {
+        @extend .portfolio__ball;
+    }
+
+    &__cards {
+        @extend .portfolio__cards;
+    }
+}
