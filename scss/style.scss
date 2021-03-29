@@ -1,3 +1,4 @@
+@import 'normalize';
 @import 'variables-mixins';
 @import 'typography';
 @import 'cards';
@@ -5,16 +6,16 @@
 
 body {
     background-color: $background;
+    font-family: 'Tomorrow', sans-serif;
     margin: 1rem;
     padding: 0;
-    font-family: 'Tomorrow', sans-serif;
 }
 
 .footer {
-    text-align: center;
-    font-size: 0.7rem;
     color: $second-color;
+    font-size: 0.7rem;
     margin-top: 2rem;
+    text-align: center;
 
     &__span {
         color: $primary-color;

@@ -1,26 +1,26 @@
 .title {
     &__description {
         color: $second-color;
-        text-decoration: underline;
-        text-decoration-color: $primary-color;
         text-align: center;
+        text-decoration-color: $primary-color;
+        text-decoration: underline;
     }
 }
 
 .portfolio {
     &__title {
-        color: $second-color;
         border-left: 5px solid $primary-color;
-        padding-left: 0.5rem;
+        color: $second-color;
         margin-top: 3rem;
+        padding-left: 0.5rem;
     }
 
     &__subtitle {
         color: $second-color;
-        text-decoration: underline;
-        text-decoration-color: $primary-color;
         cursor: pointer;
         font-size: 1.5rem;
+        text-decoration-color: $primary-color;
+        text-decoration: underline;
     }
 
     &__paragraph {
@@ -34,11 +34,11 @@
         @extend .portfolio__title;
     }
 
-    &__subtitle {
-        @extend .portfolio__subtitle;
-    }
-
     &__paragraph {
         @extend .portfolio__paragraph;
+    }
+
+    &__subtitle {
+        @extend .portfolio__subtitle;
     }
 }

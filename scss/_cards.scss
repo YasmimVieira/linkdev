@@ -1,32 +1,32 @@
 .portfolio {
     &__ball {
-        top: -32px;
-        left: 40%;
-        width: 60px;
-        height: 60px;
-        position: relative;
-        border-radius: 50%;
         background-color: $primary-color;
+        border-radius: 50%;
+        height: 60px;
+        left: 40%;
+        position: relative;
+        top: -32px;
+        width: 60px;
     }
 
     &__cards {
-        text-align: center;
         background-color: $background-cards;
         border-radius: 8px;
-        padding: 0.9rem;
         margin-top: 5rem;
+        padding: 0.9rem;
+        text-align: center;
         transition: all .3s ease;
 
         &:hover {
-            transform: scale(1.02);
             box-shadow: 0 0 0 2px $primary-color;
+            transform: scale(1.02);
         }
     }
 
     &__image {
+        left: 11px;
         position: absolute;
         top: 10px;
-        left: 11px;
     }
 }
 
