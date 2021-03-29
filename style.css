@@ -440,7 +440,7 @@ th {
 .portfolio__cards-card, .social-medias__cards-card {
   background-color: #2C2C2C;
   border-radius: 8px;
-  margin-top: 5rem;
+  margin-top: 2rem;
   padding: 0.9rem;
   text-align: center;
   transition: all 0.3s ease;
@@ -474,6 +474,11 @@ th {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .social-medias__cards-card {
+    width: 25%;
+  }
+}
 @media (min-width: 768px) {
   .social-medias__cards {
     padding-left: 10rem;

@@ -12,7 +12,7 @@
     &__cards-card {
         background-color: $background-cards;
         border-radius: 8px;
-        margin-top: 5rem;
+        margin-top: 2rem;
         padding: 0.9rem;
         text-align: center;
         transition: all .3s ease;
@@ -55,6 +55,10 @@
 
     &__cards-card {
         @extend .portfolio__cards-card;
+
+        @include for-desktop {
+            width: 25%;
+        }
     }
 
     &__cards {
