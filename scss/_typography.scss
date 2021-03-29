@@ -17,7 +17,9 @@
 
     &__subtitle {
         color: $second-color;
-        text-align: center;
+        text-decoration: underline;
+        text-decoration-color: $primary-color;
+        font-size: 1.5rem;
     }
 
     &__paragraph {
