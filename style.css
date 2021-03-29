@@ -50,21 +50,6 @@
   left: 11px;
 }
 
-.portfolio__cards, .social-medias__cards {
-  animation-duration: 3s;
-  animation-name: sliden;
-}
-@keyframes sliden {
-  from {
-    margin-left: 100%;
-    width: 100%;
-  }
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
-
 body {
   background-color: #151515;
   margin: 1rem;
