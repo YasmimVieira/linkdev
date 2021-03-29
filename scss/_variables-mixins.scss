@@ -2,3 +2,20 @@ $background: #151515;
 $background-cards: #2C2C2C;
 $primary-color: #6B0AB0;
 $second-color: #FFFFFF;
+
+@mixin for-tablet {
+    @media screen    
+    and (min-device-width: 768px) 
+    and (max-device-width: 1024px) {
+        @content;
+    }
+}
+
+@mixin for-desktop {
+    @media screen 
+        and (min-device-width: 1200px) 
+        and (max-device-width: 1600px) 
+        and (min-resolution: 192dpi) { 
+            @content;
+    }
+}

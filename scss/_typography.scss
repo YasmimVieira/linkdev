@@ -2,8 +2,8 @@
     &__description {
         color: $second-color;
         text-align: center;
-        text-decoration-color: $primary-color;
         text-decoration: underline;
+        text-decoration-color: $primary-color;
     }
 }
 
@@ -28,6 +28,13 @@
         color: $second-color;
         text-align: center
     }
+
+    @include for-tablet {
+        &__header {
+            display: flex;
+            justify-content: center;
+        }   
+    }
 }
 
 .social-medias {
@@ -41,5 +48,9 @@
 
     &__subtitle {
         @extend .portfolio__subtitle;
+    }
+
+    &__header {
+        @extend .portfolio__header;
     }
 }

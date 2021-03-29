@@ -9,7 +9,7 @@
         width: 60px;
     }
 
-    &__cards {
+    &__cards-card {
         background-color: $background-cards;
         border-radius: 8px;
         margin-top: 5rem;
@@ -28,6 +28,13 @@
         position: absolute;
         top: 10px;
     }
+
+    &__cards {
+        @include for-tablet {
+            padding-left: 10rem;
+            padding-right: 10rem
+        }
+    }
 }
 
 .social-medias {
@@ -35,7 +42,14 @@
         @extend .portfolio__ball;
     }
 
+    &__cards-card {
+        @extend .portfolio__cards-card;
+    }
+
     &__cards {
-        @extend .portfolio__cards;
+        @include for-tablet {
+            padding-left: 10rem;
+            padding-right: 10rem
+        }
     }
 }

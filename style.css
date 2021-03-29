@@ -399,8 +399,8 @@ th {
 .title__description {
   color: #FFFFFF;
   text-align: center;
-  text-decoration-color: #6B0AB0;
   text-decoration: underline;
+  text-decoration-color: #6B0AB0;
 }
 
 .portfolio__title, .social-medias__title {
@@ -421,6 +421,12 @@ th {
   color: #FFFFFF;
   text-align: center;
 }
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .portfolio__header, .social-medias__header {
+    display: flex;
+    justify-content: center;
+  }
+}
 
 .portfolio__ball, .social-medias__ball {
   background-color: #6B0AB0;
@@ -431,7 +437,7 @@ th {
   top: -32px;
   width: 60px;
 }
-.portfolio__cards, .social-medias__cards {
+.portfolio__cards-card, .social-medias__cards-card {
   background-color: #2C2C2C;
   border-radius: 8px;
   margin-top: 5rem;
@@ -439,7 +445,7 @@ th {
   text-align: center;
   transition: all 0.3s ease;
 }
-.portfolio__cards:hover, .social-medias__cards:hover {
+.portfolio__cards-card:hover, .social-medias__cards-card:hover {
   box-shadow: 0 0 0 2px #6B0AB0;
   transform: scale(1.02);
 }
@@ -447,6 +453,19 @@ th {
   left: 11px;
   position: absolute;
   top: 10px;
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .portfolio__cards {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .social-medias__cards {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
 }
 
 body {
