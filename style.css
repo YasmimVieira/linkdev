@@ -421,7 +421,7 @@ th {
   color: #FFFFFF;
   text-align: center;
 }
-@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media (min-width: 768px) {
   .portfolio__header, .social-medias__header {
     display: flex;
     justify-content: center;
@@ -449,22 +449,41 @@ th {
   box-shadow: 0 0 0 2px #6B0AB0;
   transform: scale(1.02);
 }
+@media screen and (min-width: 1200px) {
+  .portfolio__cards-card, .social-medias__cards-card {
+    width: 20%;
+  }
+}
 .portfolio__image {
   left: 11px;
   position: absolute;
   top: 10px;
 }
-@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media (min-width: 768px) {
   .portfolio__cards {
     padding-left: 10rem;
     padding-right: 10rem;
   }
 }
+@media screen and (min-width: 1200px) {
+  .portfolio__cards {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
 
-@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media (min-width: 768px) {
   .social-medias__cards {
     padding-left: 10rem;
     padding-right: 10rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .social-medias__cards {
+    display: flex;
+    justify-content: center;
   }
 }
 

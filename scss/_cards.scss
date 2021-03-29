@@ -21,6 +21,10 @@
             box-shadow: 0 0 0 2px $primary-color;
             transform: scale(1.02);
         }
+
+        @include for-desktop {
+            width: 20%;
+        }
     }
 
     &__image {
@@ -33,6 +37,13 @@
         @include for-tablet {
             padding-left: 10rem;
             padding-right: 10rem
+        }
+
+        @include for-desktop {
+            display: flex;
+            justify-content: space-around;
+            padding-right: 0;
+            padding-left: 0;
         }
     }
 }
@@ -50,6 +61,11 @@
         @include for-tablet {
             padding-left: 10rem;
             padding-right: 10rem
+        }
+        
+        @include for-desktop {
+            display: flex;
+            justify-content: center;
         }
     }
 }
