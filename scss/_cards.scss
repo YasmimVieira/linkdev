@@ -51,6 +51,10 @@
 .social-medias {
     &__ball {
         @extend .portfolio__ball;
+
+        @include for-desktop {
+            left: 39%
+        }
     }
 
     &__cards-card {

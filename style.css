@@ -475,6 +475,11 @@ th {
 }
 
 @media screen and (min-width: 1200px) {
+  .social-medias__ball {
+    left: 39%;
+  }
+}
+@media screen and (min-width: 1200px) {
   .social-medias__cards-card {
     width: 25%;
   }
