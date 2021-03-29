@@ -19,8 +19,9 @@
         color: $second-color;
         cursor: pointer;
         font-size: 1.5rem;
-        text-decoration-color: $primary-color;
         text-decoration: underline;
+        text-decoration-color: $primary-color;
+        font-weight: bold;
     }
 
     &__paragraph {
