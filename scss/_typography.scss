@@ -1,0 +1,41 @@
+.title {
+    &__description {
+        color: $second-color;
+        text-decoration: underline;
+        text-decoration-color: $primary-color;
+        text-align: center;
+    }
+}
+
+.portfolio {
+    &__title {
+        color: $second-color;
+        border-left: 5px solid $primary-color;
+        padding-left: 0.5rem;
+        margin-top: 3rem;
+    }
+
+    &__subtitle {
+        color: $second-color;
+        text-align: center;
+    }
+
+    &__paragraph {
+        color: $second-color;
+        text-align: center
+    }
+}
+
+.social-medias {
+    &__title {
+        @extend .portfolio__title;
+    }
+
+    &__subtitle {
+        @extend .portfolio__subtitle;
+    }
+
+    &__paragraph {
+        @extend .portfolio__paragraph;
+    }
+}

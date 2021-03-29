@@ -1,0 +1,18 @@
+.portfolio {
+    &__ball {
+        top: -32px;
+        left: 40%;
+        width: 60px;
+        height: 60px;
+        position: relative;
+        border-radius: 50%;
+        background-color: $primary-color;
+    }
+
+    &__cards {
+        background-color: $background-cards;
+        border-radius: 8px;
+        padding-bottom: 0.9rem;
+        margin-top: 5rem;
+    }
+}

@@ -1,0 +1,46 @@
+.title__description {
+  color: #FFFFFF;
+  text-decoration: underline;
+  text-decoration-color: #6B0AB0;
+  text-align: center;
+}
+
+.portfolio__title, .social-medias__title {
+  color: #FFFFFF;
+  border-left: 5px solid #6B0AB0;
+  padding-left: 0.5rem;
+  margin-top: 3rem;
+}
+.portfolio__subtitle, .social-medias__subtitle {
+  color: #FFFFFF;
+  text-align: center;
+}
+.portfolio__paragraph, .social-medias__paragraph {
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.portfolio__ball {
+  top: -32px;
+  left: 40%;
+  width: 60px;
+  height: 60px;
+  position: relative;
+  border-radius: 50%;
+  background-color: #6B0AB0;
+}
+.portfolio__cards {
+  background-color: #2C2C2C;
+  border-radius: 8px;
+  padding-bottom: 0.9rem;
+  margin-top: 5rem;
+}
+
+body {
+  background-color: #151515;
+  margin: 1rem;
+  padding: 0;
+  font-family: "Tomorrow", sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */
