@@ -13,14 +13,17 @@
 }
 .portfolio__subtitle, .social-medias__subtitle {
   color: #FFFFFF;
-  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #6B0AB0;
+  cursor: pointer;
+  font-size: 1.5rem;
 }
 .portfolio__paragraph, .social-medias__paragraph {
   color: #FFFFFF;
   text-align: center;
 }
 
-.portfolio__ball {
+.portfolio__ball, .social-medias__ball {
   top: -32px;
   left: 40%;
   width: 60px;
@@ -29,13 +32,15 @@
   border-radius: 50%;
   background-color: #6B0AB0;
 }
-.portfolio__cards {
+.portfolio__cards, .social-medias__cards {
+  text-align: center;
   background-color: #2C2C2C;
   border-radius: 8px;
   padding: 0.9rem;
   margin-top: 5rem;
+  transition: all 0.3s ease;
 }
-.portfolio__cards:hover {
+.portfolio__cards:hover, .social-medias__cards:hover {
   transform: scale(1.02);
   box-shadow: 0 0 0 2px #6B0AB0;
 }
@@ -45,11 +50,36 @@
   left: 11px;
 }
 
+.portfolio__cards, .social-medias__cards {
+  animation-duration: 3s;
+  animation-name: sliden;
+}
+@keyframes sliden {
+  from {
+    margin-left: 100%;
+    width: 100%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
 body {
   background-color: #151515;
   margin: 1rem;
   padding: 0;
   font-family: "Tomorrow", sans-serif;
+}
+
+.footer {
+  text-align: center;
+  font-size: 0.7rem;
+  color: #FFFFFF;
+  margin-top: 2rem;
+}
+.footer__span {
+  color: #6B0AB0;
 }
 
 /*# sourceMappingURL=style.css.map */
